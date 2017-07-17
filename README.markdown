@@ -2,7 +2,6 @@
 
 *Journal* is a module for Liferay 7.0 that allows non-technical users to publish content to a Liferay site without having advanced knowledge of web technology or programming of any sort.
 
-
 Liferay Journal is part of the Liferay Portal project.
 [Liferay Portal]
 (http://www.liferay.com/community/liferay-projects/liferay-portal) is an
@@ -13,7 +12,6 @@ development project in 2000 and was open sourced in 2001.
 To get started, check out the project's community homepage at
 [http://liferay.org](http://liferay.org)!
 
-
 ### Documentation
 
 Take a look at the [Liferay Portal User Guide](https://dev.liferay.com/discover/portal)
@@ -23,7 +21,6 @@ For more information about how to use Journal, read the [Creating Web Content]
 (https://dev.liferay.com/discover/portal/-/knowledge_base/7-0/creating-web-content)
 section.
 
-
 ### Contributing
 
 We welcome any and all contributions! If you have an idea for a new plugin
@@ -31,11 +28,9 @@ or a new feature in an existing plugin, and wish to implement it, just send a
 pull request to the user @liferay and to the branch *master* and
 we will start a discussion there around your changes.
 
-
 ### Testing
 
 In order to execute the unit and integration tests locally, you should do the following:
-
 
 ## More Information
 
