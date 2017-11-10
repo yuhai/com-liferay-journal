@@ -6737,9 +6737,7 @@ public class JournalArticleLocalServiceImpl
 						new ArticleVersionComparator(true));
 
 				for (JournalArticle currentArticle : currentArticles) {
-					if ((currentArticle.getExpirationDate() == null) ||
-						(currentArticle.getVersion() > article.getVersion())) {
-
+					if (currentArticle.getVersion() > article.getVersion()) {
 						continue;
 					}
 
