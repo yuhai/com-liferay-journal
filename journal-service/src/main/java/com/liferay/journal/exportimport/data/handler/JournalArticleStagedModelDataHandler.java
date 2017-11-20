@@ -838,11 +838,11 @@ public class JournalArticleStagedModelDataHandler
 					serviceContext);
 			}
 
-			boolean isExportVersionHistory =
+			boolean exportVersionHistory =
 				portletDataContext.getBooleanParameter(
 					"journal", "version-history");
 
-			if (!isExportVersionHistory &&
+			if (!exportVersionHistory &&
 				isExpireAllArticleVersions(importedArticle.getCompanyId())) {
 
 				setArticlesExpirationDate(importedArticle);
